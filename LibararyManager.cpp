@@ -170,7 +170,7 @@ int main() {
                 library.searchByTitle();
                 break;
             case 6:
-                cout << "Exiting program.\n";
+                cout << "Exit the program.\n";
                 break;
             default:
                 cout << "Invalid choice! Try again.\n";
