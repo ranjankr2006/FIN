@@ -38,7 +38,7 @@ void menu() {
     cout << "\n=== To-Do List ===\n";
     cout << "1. Add Task\n";
     cout << "2. View Tasks\n";
-    cout << "3. Mark Task as Done\n";
+    cout << "3. Mark Tasks as Done\n";
     cout << "4. Exit\n";
 }
 
