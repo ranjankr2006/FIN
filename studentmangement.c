@@ -70,7 +70,7 @@ void menu() {
     printf("2. View All Students\n");
     printf("3. Search Student by Roll No.\n");
     printf("4. Update Student\n");
-    printf("5. Delete Student\n");
+    printf("5. Remove Student\n");
     printf("6. Save & Exit\n");
 }
 
