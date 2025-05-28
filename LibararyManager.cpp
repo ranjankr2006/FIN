@@ -1,4 +1,4 @@
-#include <iostream>
+i#include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
@@ -13,7 +13,7 @@ private:
     bool issued;
 
 public:
-    Book(int i, string t, string a) {
+    Books(int i, string t, string a) {
         id = i;
         title = t;
         author = a;
@@ -55,10 +55,10 @@ public:
     }
 
     void display() const {
-        cout << "ID: " << id << "\n";
-        cout << "Title: " << title << "\n";
-        cout << "Author: " << author << "\n";
-        cout << "Status: " << (issued ? "Issued" : "Available") << "\n\n";
+        cout << "IDS: " << id << "\n";
+        cout << "TitleS: " << title << "\n";
+        cout << "AuthorS: " << author << "\n";
+        cout << "StatusS: " << (issued ? "Issued" : "Available") << "\n\n";
     }
 };
 
