@@ -36,7 +36,7 @@ int main() {
                 searchStudent();
                 break;
             case 4:
-                cout << "Exiting program.\n";
+                cout << "Exit the program.\n";
                 break;
             default:
                 cout << "Invalid choice. Try again.\n";
