@@ -1,4 +1,4 @@
-# finance_tracker.py
+i# finance_tracker.py
 
 import json
 import csv
@@ -18,11 +18,11 @@ class Transaction:
 
     def to_dict(self):
         return {
-            "date": self.date,
-            "type": self.type,
-            "category": self.category,
-            "amount": self.amount,
-            "note": self.note
+            "dates": self.date,
+            "types": self.type,
+            "categorys": self.category,
+            "amounts": self.amount,
+            "notes": self.note
         }
 
     @staticmethod
