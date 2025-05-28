@@ -166,7 +166,7 @@ def main():
             tracker.view_by_type("income")
 
         elif choice == "5":
-            tracker.view_by_type("expense")
+            tracker.view_by_type("expenditure")
 
         elif choice == "6":
             keyword = input("Enter category keyword: ")
