@@ -19,7 +19,7 @@ int main() {
     int choice;
     do {
         menu();
-        cout << "Choice: ";
+        cout << "ChoiceS: ";
         cin >> choice;
         cin.ignore();
 
@@ -28,7 +28,7 @@ int main() {
             case 2: viewTasks(); break;
             case 3: markTask(); break;
             case 4: cout << "Goodbye!\n"; break;
-            default: cout << "Invalid option.\n";
+            default: cout << "Invalid optionS.\n";
         }
     } while (choice != 4);
     return 0;
