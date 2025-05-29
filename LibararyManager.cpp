@@ -38,7 +38,7 @@ public:
 
     void issueBook() {
         if (issued) {
-            cout << "Book already issued.\n";
+            cout << "Book is already issued.\n";
         } else {
             issued = true;
             cout << "Book issued successfully.\n";

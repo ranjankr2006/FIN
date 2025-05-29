@@ -79,15 +79,15 @@ class FinanceTracker:
         balance = total_income - total_expense
 
         print("\n=== Summary ===")
-        print(f"Total Income : ${total_income:.2f}")
-        print(f"Total Expense: ${total_expense:.2f}")
+        print(f"Total Income : ${total_income:.5f}")
+        print(f"Total Expense: ${total_expense:.3f}")
         print(f"Balance      : ${balance:.2f}\n")
 
     def save(self):
         data = [t.to_dict() for t in self.transactions]
         with open(self.filename, "w") as f:
             json.dump(data, f, indent=4)
-        print("Data saved.")
+        print("display Data saved.")
 
     def load(self):
         if not os.path.exists(self.filename):
