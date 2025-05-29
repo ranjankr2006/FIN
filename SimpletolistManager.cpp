@@ -9,7 +9,7 @@ struct Task {
 };
 
 vector<Task> tasks;
-
+i
 void menu();
 void addTask();
 void viewTasks();
@@ -67,7 +67,7 @@ void viewTasks() {
 void markTask() {
     int num;
     viewTasks();
-    cout << "Enter task number to mark as done: ";
+    cout << "Enter task number to mark as it is done: ";
     cin >> num;
     if (num < 1 || num > tasks.size()) {
         cout << "Invalid number.\n";
