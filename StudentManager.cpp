@@ -21,7 +21,7 @@ int main() {
     int choice;
     do {
         showMenu();
-        cout << "Enter choice: ";
+        cout << "Enter the choice: ";
         cin >> choice;
         cin.ignore();
 
@@ -60,7 +60,7 @@ void addStudent() {
     cout << "Enter Roll Number: ";
     cin >> s.roll;
     cin.ignore();
-    cout << "Enter Name: ";
+    cout << "Enter the  Name: ";
     getline(cin, s.name);
     cout << "Enter Course: ";
     getline(cin, s.course);
